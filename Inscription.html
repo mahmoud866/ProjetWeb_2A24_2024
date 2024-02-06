@@ -1,0 +1,51 @@
+<html>
+    <body>
+        <header>
+            <a href="">Home</a>
+            <a href="">Projets et taches</a>
+            <a href="">Liste des employés</a>
+            <a href="">Inscription<br></a>
+            <hr>
+            <img src="./image/image_inscription.jpg" width="1500px" height="500">
+        </header>
+         <form action=""> 
+            <label>Nom:</label>
+            <input type="texte" placeholder="Votre Nom" required  pattern="[A-Za-zÀ-ÖØ-öø-ÿ ]{2,}" 
+                            title="Veuillez entrer un nom valide (lettres uniquement)">
+            <br>
+        
+            <label>Prenom:</label>
+            <input type="texte" placeholder="Votre Prenom" required pattern="[A-Za-zÀ-ÖØ-öø-ÿ ]{2,}" 
+                            title="Veuillez entrer un prénom valide (lettres uniquement)">
+            <br>
+        
+            <label>E-mail:</label>
+            <input type="email"placeholder="Votre Email">
+            <br>
+
+            <label>Telephone :</label>
+            <input type="tel" required pattern="[0-9]{8}" 
+                            title="Veuillez entrer un numéro de téléphone valide (8 chiffres)">
+            <br>
+
+            <label>Date de naissance :</label>
+            <input type="date">
+            <br>
+
+        
+            <label>Mot de passe :</label>
+            <input type="password" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$" 
+            title="Le mot de passe doit contenir au moins 8 caractères, incluant au moins un chiffre, 
+            une lettre minuscule et une lettre majuscule.">
+            <br>
+
+            <input type="submit" value="S'inscrire">
+    <hr>
+    <footer>
+        Vous pouvez nous contacter par email:
+        <a href="">contact@esprit.tn</a><br>
+        Adresse:Ghazela,Tunis
+    </footer>
+
+    </body>
+</html>
